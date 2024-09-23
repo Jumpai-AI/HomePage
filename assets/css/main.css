@@ -6,6 +6,8 @@
   --black-color: #212529;
 }
 
+
+
 .equipe {
   overflow: visible;
   margin-bottom: 200px;
@@ -166,24 +168,53 @@ body {
   border-radius: 15px 15px 0 0; 
 }
 
-.roxo{
-  background-color: #4B27AF;
+
+.color-roxo{
+  color: #4B27AF !important;
 }
 
-.amarelo{
- color: #FFE662 !important;
-}
 
 .divider{
   height: 15px;
   background-color: #4B27AF;
 }
 
-.color-roxo{
-  color: #4B27AF !important;
-}
-
 #historia p{
   font-size: 14px;
 }
 
+
+
+
+
+
+
+/* Cores */
+
+.roxo{
+  background-color: #4B27AF;
+}
+
+.amarelo{
+  color: #FFCC00 !important;
+}
+
+/* Apoiadores */
+
+.scrolling-images {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  animation: scroll 10s linear infinite;
+}
+
+.scrolling-images img {
+  width: 11.5%;
+  height: auto;
+  margin-left: 40px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-66.66%); }
+}

@@ -19,202 +19,131 @@
 <body class="index-page">
 
 <!-- Barra de navegação -->
-<nav class="navbar navbar-expand-lg navbar-dark roxo" aria-label="Navegação principal">
-    <div class="container-xl">
-        <a class="navbar-brand" href="#">JUMP.AI</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo/logo.png" alt="Jumpai Logo" draggable="false" height="30"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample07XL">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#apresentacao">HOME</a>
+                    <a class="nav-link mx-2" href="#apresentacao">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#objetivos">OBJETIVOS</a>
+                    <a class="nav-link mx-2" href="#objetivos">PROJETO</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link mx-2" href="#!"></i>EQUIPE</a>
+                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#equipe">EQUIPE</a>
-              </li>
+                    <a class="nav-link mx-2" href="#historia"></i>TRAJATÓRIA</a>
+                </li>
             </ul>
+          </div>
         </div>
-    </div>
-    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-</nav>
+        </div>
+    </nav>
 
-<!-- Apresentação -->
-<div id="apresentacao" class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-md-6">
-            <img src="assets/img/game.png" class="d-block mx-lg-auto img-fluid" alt="Temas do Bootstrap" width="700" height="500" loading="lazy">
-        </div>
-        <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 color-roxo">JUMPAI</h1>
-            <p class="lead fs-6">O JUMPAI é um jogo inovador que utiliza visão computacional, uma subárea da inteligência artificial, para proporcionar uma experiência de jogo única e inclusiva. Utilizando a detecção de movimentos dos olhos (piscadas) e dos dedos, o JUMPAI permite que jogadores de todas as habilidades controlem uma variedade de jogos de maneira intuitiva e acessível. Projetado especialmente para crianças com mobilidade reduzida, o JUMPAI abre um novo mundo de diversão e aprendizado, garantindo que todos possam participar e se divertir ao máximo. Explore nosso universo de jogos temáticos e descubra como a tecnologia pode transformar a experiência de jogo em uma jornada inclusiva e emocionante!</p>
-        </div>
-    </div>
-</div>
+    <main class="main">
 
-<main class="main">
-    <!-- Objetivos -->
-    <section id="objetivos" class="py-5 roxo">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 justify-content-center">
-                <div class="col">
-                    <div class="card p-3">
-                        <img src="assets/img/objetivos/colaboracao.png" class="card-img-top" alt="Imagem 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Promover a Inclusão Digital</h5>
-                        </div>
+        <!-- Apresentação -->
+        <section id="apresentacao" >
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-md-6">
+                        <img src="assets/img/hero/hero.png" class="d-block mx-lg-auto img-fluid" alt="Temas do Bootstrap" width="700" height="500" loading="lazy">
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card p-3">
-                        <img src="assets/img/objetivos/educacao-online.png" class="card-img-top" alt="Imagem 2">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Educação e Desenvolvimento</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card p-3">
-                        <img src="assets/img/objetivos/familia.png" class="card-img-top" alt="Imagem 3">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Apoiar Famílias e Educadores</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card p-3">
-                        <img src="assets/img/objetivos/processo-criativo.png" class="card-img-top" alt="Imagem 4">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Incentivar a Criatividade</h5>
-                        </div>
+                    <div class="col-lg-6">
+                        <h5 class="display-6 fw-bold text-body-emphasis lh-1 mb-3 amarelo">AGORA, O PODER DO JOGO ESTÁ AO ALCANCE DO SEU OLHAR</h5>
+                        <p class="lead fs-5">Um jogo divertido e educativo, criado para pessoas com com ou sem mobilidade reduzida, jogar com os olhos ou mínimos movimentos das mãos.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- História -->
-    <section id="historia">
-        <div class="container my-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/RHx_i8XVd_Q" frameborder="0" allowfullscreen></iframe>
-                </div>                
-                <div class="col-md-6">
-                    <h2 class="fw-bold text-body-emphasis lh-1 mb-3 amarelo">NOSSA HISTÓRIA</h2>
-                    <p>O JUMPAI é um jogo inovador desenvolvido especialmente para crianças em idade escolar que possuem mobilidade reduzida. A inspiração para este projeto veio de Gian Luccas, um garoto com Atrofia Muscular Espinhal (AME), que sempre sonhou em jogar os jogos disponíveis no mercado. No entanto, devido às suas limitações motoras, muitos desses jogos estavam fora de seu alcance.</p>
-                    <p>Determinados a tornar o desejo de Gian Luccas uma realidade, iniciamos o desenvolvimento do JUMPAI. Este jogo oferece uma série de fases com diferentes temáticas, proporcionando uma experiência divertida e acessível para todas as crianças, independentemente de suas capacidades físicas.</p>
-                    <p>Nosso objetivo é criar um ambiente inclusivo onde todos possam explorar, aprender e se divertir, superando as barreiras da mobilidade e promovendo a igualdade no mundo dos jogos.</p>
+        <!-- Apoiadores -->
+        <section id="apoaidores" >
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="scrolling-images">
+                    <img src="./assets/img/apoiadores/cps.jpg" alt="Logo Centro Paula Souza">
+                    <img src="./assets/img/apoiadores/rp.png" alt="Logo Cidade Ribeirão Pires">
+                    <img src="./assets/img/apoiadores/cubo.png" alt="Logo Cubo">
+                    <img src="./assets/img/apoiadores/etec.png" alt="Logo Etec Professora Maria Cristina Medeiros">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Seção de Equipe -->
-    <section id="equipe" class="equipe section dark-background">
-        <div class="container section-title" data-aos="fade-up">
-          <h2 class="fw-bold text-body-emphasis lh-1 mb-3 amarelo">EQUIPE</h2>
-        </div>
-        <div class="services-carousel-wrap">
+        <!-- Objetivos -->
+        <section id="objetivos" class="py-5 roxo">
             <div class="container">
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-                        {
-                            "loop": true,
-                            "speed": 1200,
-                            "autoplay": {
-                                "delay": 2000
-                            },
-                            "slidesPerView": "auto",
-                            "pagination": {
-                                "el": ".swiper-pagination",
-                                "type": "bullets",
-                                "clickable": true
-                            },
-                            "navigation": {
-                                "nextEl": ".js-custom-next",
-                                "prevEl": ".js-custom-prev"
-                            },
-                            "breakpoints": {
-                                "320": {
-                                    "slidesPerView": 1,
-                                    "spaceBetween": 40
-                                },
-                                "1200": {
-                                    "slidesPerView": 3,
-                                    "spaceBetween": 40
-                                }
-                            }
-                        }
-                    </script>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="equipe-item">
-                                <div class="equipe-item-contents">
-                                    <span class="equipe-item-title">ANA LAURA VICENTINE</span>
-                                    <h2 class="equipe-item-category">Desenvolvedora</h2>
-                                </div>
-                                <img src="assets/img/equipe/ana.png" alt="Imagem" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="equipe-item">
-                                <div class="equipe-item-contents">
-                                    <span class="equipe-item-title">GIOVANA ROCHA</span>
-                                    <h2 class="equipe-item-category">Desenvolvedora</h2>
-                                </div>
-                                <img src="assets/img/equipe/giovana.png" alt="Imagem" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="equipe-item">
-                                <div class="equipe-item-contents">
-                                    <span class="equipe-item-title">THIFANY GARCIA</span>
-                                    <h2 class="equipe-item-category">Desenvolvedora</h2>
-                                </div>
-                                <img src="assets/img/equipe/thifany.png" alt="Imagem" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="equipe-item">
-                                <div class="equipe-item-contents">
-                                    <span class="equipe-item-title">CINTIA PINHO</span>
-                                    <h2 class="equipe-item-category">Orientadora</h2>
-                                </div>
-                                <img src="assets/img/equipe/cintia.jpg" alt="Imagem" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="equipe-item">
-                                <div class="equipe-item-contents">
-                                    <span class="equipe-item-title">ANDERSON VANIN</span>
-                                    <h2 class="equipe-item-category">Co-orientador</h2>
-                                </div>
-                                <img src="assets/img/equipe/anderson.jpg" alt="Imagem" class="img-fluid">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 justify-content-center">
+                    <div class="col">
+                        <div class="card p-3">
+                            <img src="assets/img/objetivos/colaboracao.png" class="card-img-top" alt="Imagem 1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Promover a Inclusão Digital</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="col">
+                        <div class="card p-3">
+                            <img src="assets/img/objetivos/educacao-online.png" class="card-img-top" alt="Imagem 2">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Educação e Desenvolvimento</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3">
+                            <img src="assets/img/objetivos/familia.png" class="card-img-top" alt="Imagem 3">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Apoiar Famílias e Educadores</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card p-3">
+                            <img src="assets/img/objetivos/processo-criativo.png" class="card-img-top" alt="Imagem 4">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Incentivar a Criatividade</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section><!-- /Seção de Equipe -->
+        </section>
 
-</main>
+        <!-- História -->
+        <section id="historia">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/RHx_i8XVd_Q" frameborder="0" allowfullscreen></iframe>
+                    </div>                
+                    <div class="col-md-6">
+                        <h2 class="fw-bold text-body-emphasis lh-1 mb-3 amarelo">NOSSA HISTÓRIA</h2>
+                        <p>O JUMPAI é um jogo inovador desenvolvido especialmente para crianças em idade escolar que possuem mobilidade reduzida. A inspiração para este projeto veio de Gian Luccas, um garoto com Atrofia Muscular Espinhal (AME), que sempre sonhou em jogar os jogos disponíveis no mercado. No entanto, devido às suas limitações motoras, muitos desses jogos estavam fora de seu alcance.</p>
+                        <p>Determinados a tornar o desejo de Gian Luccas uma realidade, iniciamos o desenvolvimento do JUMPAI. Este jogo oferece uma série de fases com diferentes temáticas, proporcionando uma experiência divertida e acessível para todas as crianças, independentemente de suas capacidades físicas.</p>
+                        <p>Nosso objetivo é criar um ambiente inclusivo onde todos possam explorar, aprender e se divertir, superando as barreiras da mobilidade e promovendo a igualdade no mundo dos jogos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Botão de voltar ao topo -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    </main>
 
-<!-- Arquivos JS de fornecedores -->
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Botão de voltar ao topo -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-<!-- Arquivo JS principal -->
-<script src="assets/js/main.js"></script>
-<script src="assets/bootstrap.min.js"></script>
+    <!-- Arquivos JS de fornecedores -->
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Arquivo JS principal -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
 
 </body>
 </html>
